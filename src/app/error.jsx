@@ -6,7 +6,10 @@ export default function Error({ error, reset }) {
   return (
     <div className="text-center">
       <p>Something went wrong!</p>
-      <button className="text-amber-500 font-semibold hover:text-amber-600">
+      <button
+        onClick={() => reset()}
+        className="text-amber-500 font-semibold hover:text-amber-600"
+      >
         Try again
       </button>
     </div>
