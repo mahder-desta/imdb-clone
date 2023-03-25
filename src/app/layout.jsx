@@ -13,10 +13,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Providers>
-        <Header></Header>
+          <Header></Header>
 
-        <Navbar/>
-        {children}
+          <Navbar />
+          <div className="mt-8">{children}</div>
         </Providers>
       </body>
     </html>
