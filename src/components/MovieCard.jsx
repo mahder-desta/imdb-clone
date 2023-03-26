@@ -13,9 +13,9 @@ export default function MovieCard({ data }) {
       >
         <Image
           width={600}
-          height={350}
+          height={345}
           alt={data.title}
-          className="rounded-lg group-hover:opacity-70 transition-opacity 
+          className=" max-h-[205px] rounded-lg group-hover:opacity-70 transition-opacity 
           duration-200 sm:hover:shadow-lg sm:shadow-md"
           src={`https://image.tmdb.org/t/p/original/${
             data.backdrop_path || data.poster_path
