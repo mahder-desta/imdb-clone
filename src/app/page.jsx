@@ -18,7 +18,6 @@ export default async function Home({ searchParams }) {
   const data = await res.json();
 
   const results = data.results;
-  console.log(results);
 
   return (
     <div className="max-w-6xl mx-4 xl:mx-auto">

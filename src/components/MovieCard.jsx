@@ -21,12 +21,12 @@ export default function MovieCard({ data }) {
             data.backdrop_path || data.poster_path
           }`}
         />
-        <div className="absolute rounded-lg flex flex-col justify-end bottom-0 p-3 bg-gradient-to-b from-transparent to-black w-full h-full">
+        <div className="absolute rounded-lg flex flex-col justify-end bottom-0 p-3 bg-gradient-to-b from-transparent to-black w-full h-full text-gray-300">
           {/* <p className="font-light text-gray-00 line-clamp-2 opacity-75">
             {data.overview}
           </p> */}
 
-          <h2 className="text-lg text-gray-300 font-semibold line-clamp-1">
+          <h2 className="text-lg  font-semibold line-clamp-1">
             {data.title || data.name}
           </h2>
           <div className="flex gap-4 text-sm">
